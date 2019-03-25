@@ -1,2 +1,2 @@
 # TBRF
-Tensor Basis Random Forest of Kaandrop (2018)
+Tensor Basis Random Forest for RANS turbulence modelling
