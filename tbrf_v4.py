@@ -9,6 +9,7 @@ v3: added RMSE per split (featImportance)
 v4: include tbdt_8 in which random splitting feature is fixed
 """
 import numpy as np
+# from TensorBasisDecisionTree import TBDT
 from tbdt_v8 import TBDT
 from os.path import isfile
 
@@ -133,4 +134,3 @@ class TBRF:
         
         # return the TBRF prediction and TBDT predictions
         return bij_hat,bij_forest,g_forest
-    
